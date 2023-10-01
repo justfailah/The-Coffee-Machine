@@ -92,4 +92,3 @@ while machine_on:
             payment = coin_process()
             if successful_transaction(payment, drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
-
